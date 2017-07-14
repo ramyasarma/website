@@ -1,0 +1,30 @@
++++
+# Date this page was created.
+date = "2016-04-27"
+weight = 2
+# Project title.
+title = "Job Scheduling for Scientific Workflows in IaaS clouds"
+
+# Project summary to display on homepage.
+summary = "Job Scheduling for Scientific Workflows on Clouds using Particle Swarm Optimisation."
+
+# Optional image to display on homepage (relative to `static/img/` folder).
+image_preview = "bubbles.jpg"
+
+# Tags: can be used for filtering projects.
+# Example: `tags = ["machine-learning", "deep-learning"]`
+tags = ["cloud-computing"]
+
+# Optional external URL for project (replaces project detail page).
+external_link = ""
+
+# Does the project detail page use math formatting?
+math = false
+
+# Optional featured image (relative to `static/img/` folder).
+[header]
+image = "headers/bubbles-wide.jpg"
+caption = "My caption :smile:"
+
++++
+The aim is to minimise the cost of execution of the workflow while meeting the user’s deadline requirements. A modified version of the Particle Swarm Heuristic is used to combine resource provisioning and scheduling into a single algorithm. Particle swarm optimisation is a meta-heuristic that is based on the social behaviour of a flock of birds or swarm of bees (particles). The algorithm is simulated on the WorkFlowSim Simulator which is an extension of CloudSim simulator. Simulation is done in order to test the algorithm before deploying it in the cloud to avoid any bottlenecks delays that may occur for scheduling. This greatly reduces the time and cost of deployment operations. The solution was tested for different scientific workflows namely Montage, Epigenome, CyberShake and Inspiral and analysed the performance.
